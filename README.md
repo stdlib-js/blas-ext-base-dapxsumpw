@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dapxsumpw/tags). For example,
+
+```javascript
 import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@v0.2.2-esm/index.mjs';
 ```
 
@@ -153,7 +158,7 @@ var v = dapxsumpw.ndarray( 4, 5.0, x, 2, 1 );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@v0.2.2-esm/index.mjs';
+import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( 0, 100 ) );
 console.log( x );
