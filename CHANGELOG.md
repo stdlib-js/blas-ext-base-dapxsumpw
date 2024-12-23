@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-14)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`5364192`](https://github.com/stdlib-js/stdlib/commit/536419208fcd2b06d9b24526c6b2ec73dc7ef736) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumpw` [(#3248)](https://github.com/stdlib-js/stdlib/pull/3248) _(by Muhammad Haris)_
 -   [`a13603b`](https://github.com/stdlib-js/stdlib/commit/a13603b556defa762f7fe1d25fbfa3b621404f69) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusum` [(#2954)](https://github.com/stdlib-js/stdlib/pull/2954) _(by Muhammad Haris)_
@@ -69,7 +70,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`ceb4943`](https://github.com/stdlib-js/stdlib/commit/ceb494351d42c2505e559a2c8aad9a120c76d0db) - **docs:** remove comments _(by Athan Reines)_
 -   [`0244027`](https://github.com/stdlib-js/stdlib/commit/0244027e1e2c0ceb1cd8ae1808196c24fa77b142) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
--   [`fd8b214`](https://github.com/stdlib-js/stdlib/commit/fd8b2148f3fe49e20a05f1663dec2e1a8f95b3bb) - **refactor:** update `blas/ext/base/dapxsumpw` to follow current project conventions _(by Shivam, Philipp Burckhardt)_
+-   [`fd8b214`](https://github.com/stdlib-js/stdlib/commit/fd8b2148f3fe49e20a05f1663dec2e1a8f95b3bb) - **refactor:** update `blas/ext/base/dapxsumpw` to follow current project conventions _(by Shivam Ahir, Philipp Burckhardt)_
 
 </details>
 
@@ -85,7 +86,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Philipp Burckhardt
--   Shivam
+-   Shivam Ahir
 
 </section>
 
