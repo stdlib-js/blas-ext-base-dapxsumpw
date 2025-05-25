@@ -18,6 +18,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - add missing checks for `N` and address failing tests stemming from refactoring
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -36,6 +46,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - **fix:** add missing checks for `N` and address failing tests stemming from refactoring _(by Athan Reines)_
 -   [`8aa525e`](https://github.com/stdlib-js/stdlib/commit/8aa525e5406e77700b720b0df723dd4903d54984) - **refactor:** simpilfy implementation _(by Athan Reines)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`b0d1c0e`](https://github.com/stdlib-js/stdlib/commit/b0d1c0ee0ff6fa05c8d5019939990d3fbdf08537) - **feat:** add `blas/ext/base/wasm/dapxsumpw` [(#5642)](https://github.com/stdlib-js/stdlib/pull/5642) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
