@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@esm/index.mjs';
+import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@v0.3.0-esm/index.mjs';
 ```
 
 #### dapxsumpw( N, alpha, x, strideX )
@@ -150,7 +150,7 @@ var v = dapxsumpw.ndarray( 4, 5.0, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@esm/index.mjs';
+import dapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumpw@v0.3.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
